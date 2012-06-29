@@ -1,3 +1,4 @@
+
 var scri = $('<div></div>',{
 	id:"bgSoftCol",
 	style:"background-color:#000; width:100%; height:100%; top:0; left:0; position: fixed; z-index: 99; opacity: 0.3;"
@@ -14,19 +15,4 @@ $(document).click(function(){
 
 $('.mbSpan').click(function(){
 	$("#bgSoftCol").show();
-});
-$('.colo1').click(function(){
-	$("#bgSoftCol").css({
-		opacity: 0.7
-	});
-});
-$('.colo2').click(function(){
-	$("#bgSoftCol").css({
-		opacity: 0.5
-	});
-});
-$('.colo3').click(function(){
-	$("#bgSoftCol").css({
-		opacity: 0.2
-	});
 });
