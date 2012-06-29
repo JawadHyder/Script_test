@@ -1,3 +1,4 @@
+// JavaScript Document
 
 var scri = $('<div></div>',{
 	id:"bgSoftCol",
@@ -9,10 +10,25 @@ var mBar = '<style type="text/css">#mBar {z-index:100;position:fixed;width:100%;
 $('body').append(scri);
 $('body').append(mBar);
 
-$(document).click(function(){
-	$("#bgSoftCol").hide();
-});
+//$(document).click(function(){
+//	$("#bgSoftCol").hide();
+//});
 
 $('.mbSpan').click(function(){
 	$("#bgSoftCol").show();
+});
+$('.colo1').click(function(){
+	$("#bgSoftCol").css({
+		opacity: 0.7
+	});
+});
+$('.colo2').click(function(){
+	$("#bgSoftCol").css({
+		opacity: 0.5
+	});
+});
+$('.colo3').click(function(){
+	$("#bgSoftCol").css({
+		opacity: 0.2
+	});
 });
