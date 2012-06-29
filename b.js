@@ -11,3 +11,22 @@ $('body').append(mBar);
 $(document).click(function(){
 	$("#bgSoftCol").hide();
 });
+
+$('.mbSpan').click(function(){
+	$("#bgSoftCol").show();
+});
+$('.colo1').click(function(){
+	$("#bgSoftCol").css({
+		opacity: 0.7
+	});
+});
+$('.colo2').click(function(){
+	$("#bgSoftCol").css({
+		opacity: 0.5
+	});
+});
+$('.colo3').click(function(){
+	$("#bgSoftCol").css({
+		opacity: 0.2
+	});
+});
